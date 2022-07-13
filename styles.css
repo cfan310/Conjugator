@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-align: center;
+  background-color: wheat;
+}
+
+#maintext {
+  text-align: center;
+}
+
+#conjugations {
+  display: none;
+}
