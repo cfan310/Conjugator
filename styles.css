@@ -13,3 +13,8 @@ body {
 #conjugations {
   display: none;
 }
+
+#accountBody {
+  background-color: aquamarine;
+  text-align: center;
+}
