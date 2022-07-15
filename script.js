@@ -8,3 +8,5 @@ function showConjugationsOnClick() {
 }
 
 buttonClick.addEventListener("click", showConjugationsOnClick);
+
+// Username and password page functionality
