@@ -20,6 +20,8 @@ function changeText() {
 
 changeTextButton.addEventListener("click", changeText);
 
+// button test
+
 // Username and password page functionality
 
 // Flashcards functionality
