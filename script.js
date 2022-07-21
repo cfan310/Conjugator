@@ -9,6 +9,8 @@ function showConjugationsOnClick() {
 
 buttonClick.addEventListener("click", showConjugationsOnClick);
 
+let mainTitle = document.getElementById("maintext");
+
 // Username and password page functionality
 
 // Flashcards functionality
