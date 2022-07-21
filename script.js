@@ -10,6 +10,15 @@ function showConjugationsOnClick() {
 buttonClick.addEventListener("click", showConjugationsOnClick);
 
 let mainTitle = document.getElementById("maintext");
+let changeTextButton = document.getElementById("mainTextButton");
+
+let newTitle = "French Verb Conjugator";
+
+function changeText() {
+  mainTitle.innerHTML = newTitle;
+}
+
+changeTextButton.addEventListener("click", changeText);
 
 // Username and password page functionality
 
