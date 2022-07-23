@@ -26,7 +26,7 @@ changeTextButton.addEventListener("click", changeText);
 
 // Flashcards functionality
 
-// Accoiunt page
+// Account page
 
 // next up is to create secure logins using cryptographic js data structure
 // add flashcards section template and js logic
