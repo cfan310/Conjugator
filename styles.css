@@ -24,3 +24,7 @@ body {
   text-align: center;
   color: rgb(211, 211, 211);
 }
+
+#flagspic {
+  width: 250px;
+}
