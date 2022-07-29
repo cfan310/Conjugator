@@ -30,3 +30,4 @@ changeTextButton.addEventListener("click", changeText);
 
 // next up is to create secure logins using cryptographic js data structure
 // add flashcards section template and js logic
+// css template before main js functionaity
