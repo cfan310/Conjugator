@@ -3,20 +3,24 @@ body {
   padding: 0;
   box-sizing: inherit;
   text-align: center;
-  background-color: wheat;
+  background-color: rgb(37, 32, 32);
   font-family: Arial;
+  color: rgb(211, 211, 211);
 }
 
 #maintext {
   text-align: center;
   font-family: Arial;
+  color: rgb(211, 211, 211);
 }
 
 #conjugations {
   display: none;
+  color: rgb(211, 211, 211);
 }
 
 #accountBody {
   background-color: darkblue;
   text-align: center;
+  color: rgb(211, 211, 211);
 }
