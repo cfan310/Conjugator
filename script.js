@@ -2,9 +2,11 @@ let buttonClick = document.getElementById("button1");
 
 let conjugationsReveal = document.getElementById("conjugations");
 
+let verbTranslation = document.getElementById("verbTranslation");
+
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
-  conjugationsReveal.innerHTML = "poner"; // example
+  verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
 }
 
