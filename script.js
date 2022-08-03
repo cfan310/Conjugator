@@ -4,6 +4,7 @@ let conjugationsReveal = document.getElementById("conjugations");
 
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
+  conjugationsReveal.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
 }
 
