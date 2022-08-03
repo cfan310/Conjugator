@@ -22,14 +22,17 @@ changeTextButton.addEventListener("click", changeText);
 
 // Add the Spanish verb input as innerHTML in the div below
 
-var verbInput = document.getElementById("verb");
+var verbInput = document.getElementById("tense");
 
 var printedText = document.getElementById("verbInput");
 
 function addVerbToDiv() {
   // now the printet text below the Conjugation: header will contain an English
   // translation of the Spanish word typed into the input form
+  printedText == verbInput;
 }
+
+addVerbToDiv();
 
 // button test
 
