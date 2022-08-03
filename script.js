@@ -20,6 +20,14 @@ function changeText() {
 
 changeTextButton.addEventListener("click", changeText);
 
+// Add the Spanish verb input as innerHTML in the div below
+
+var verbInput = document.getElementById("verb");
+
+var printedText;
+
+function addVerbToDiv() {}
+
 // button test
 
 // Username and password page functionality
