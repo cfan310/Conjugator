@@ -24,9 +24,12 @@ changeTextButton.addEventListener("click", changeText);
 
 var verbInput = document.getElementById("verb");
 
-var printedText;
+var printedText = document.getElementById("verbInput");
 
-function addVerbToDiv() {}
+function addVerbToDiv() {
+  // now the printet text below the Conjugation: header will contain an English
+  // translation of the Spanish word typed into the input form
+}
 
 // button test
 
