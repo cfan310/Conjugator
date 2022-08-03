@@ -4,6 +4,8 @@ let conjugationsReveal = document.getElementById("conjugations");
 
 let verbTranslation = document.getElementById("verbTranslation");
 
+var conjugationsFromAPI;
+
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
