@@ -10,7 +10,7 @@ var conjugationsFromAPI;
 
 // <div class="answerPopUp" onclick="popUp()">
 
-function popUp() {}
+// function popUp() {}
 
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
