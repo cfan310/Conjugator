@@ -4,6 +4,13 @@
   margin: 50px auto 0 auto;
 }
 
+/*popup container to hold conjugated verbs and Spanish > English translation*/
+.answerPopUp {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   padding: 0;
