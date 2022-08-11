@@ -4,6 +4,8 @@ let conjugationsReveal = document.getElementById("conjugations");
 
 let verbTranslation = document.getElementById("verbTranslation");
 
+let conjugatedPopUp = document.getaElementByClass("popUp");
+
 var conjugationsFromAPI;
 
 // on click, show conjugations in a POP UP
