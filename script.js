@@ -6,6 +6,12 @@ let verbTranslation = document.getElementById("verbTranslation");
 
 var conjugationsFromAPI;
 
+// on click, show conjugations in a POP UP
+
+// <div class="answerPopUp" onclick="popUp()">
+
+function popUp() {}
+
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
@@ -24,7 +30,6 @@ function changeText() {
   mainTitle.innerHTML = newTitle;
 }
 */
-
 
 changeTextButton.addEventListener("click", changeText);
 
