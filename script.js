@@ -60,3 +60,6 @@ addVerbToDiv();
 // next up is to create secure logins using cryptographic js data structure
 // add flashcards section template and js logic
 // css template before main js functionaity
+
+// adding css animation and google translate API key before
+// worrying about the conjugations
