@@ -7,3 +7,8 @@ body {
   font-family: Arial;
   color: rgb(211, 211, 211);
 }
+
+#hiddenButton {
+  color: rgb(78, 0, 126);
+  background-color: aqua;
+}

@@ -57,3 +57,7 @@ body {
 #flagspic {
   width: 250px;
 }
+
+#hiddenButton {
+  text-align: right;
+}

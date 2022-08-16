@@ -8,6 +8,14 @@ let conjugatedPopUp = document.getaElementByClass("popUp");
 
 var conjugationsFromAPI;
 
+let hiddenButton = document.getElementById("hiddenButton");
+
+function hideButtonOnClick() {
+  hiddenButton.style.display = "none";
+}
+
+hiddenButton.addEventListener("click", hideButtonOnClick);
+
 // on click, show conjugations in a POP UP
 
 // <div class="answerPopUp" onclick="popUp()">
