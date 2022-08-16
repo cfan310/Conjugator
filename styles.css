@@ -61,5 +61,5 @@ body {
 #hiddenButton {
   color: rgb(78, 0, 126);
   background-color: aqua;
-  display: block;
+  display: inline-block;
 }
