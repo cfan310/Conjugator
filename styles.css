@@ -51,6 +51,10 @@ body {
   color: rgb(5, 174, 5);
 }
 
+#hideConjugations {
+  display: none;
+}
+
 #accountBody {
   background-color: darkblue;
   text-align: center;
