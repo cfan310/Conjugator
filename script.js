@@ -4,7 +4,9 @@ let conjugationsReveal = document.getElementById("conjugations");
 
 let verbTranslation = document.getElementById("verbTranslation");
 
-let conjugatedPopUp = document.getaElementByClass("popUp");
+let hideConjugations;
+
+let conjugatedPopUp = document.getElementByClass("popUp");
 
 var conjugationsFromAPI;
 
@@ -26,6 +28,7 @@ function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
+  // and we will also reveal the "hide" button
 }
 
 buttonClick.addEventListener("click", showConjugationsOnClick);

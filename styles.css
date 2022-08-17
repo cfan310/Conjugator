@@ -43,9 +43,12 @@ body {
   color: rgb(211, 211, 211);
 }
 
+#verbTranslation {
+  color: rgb(5, 174, 5);
+}
+
 #conjugations {
-  display: none;
-  color: rgb(211, 211, 211);
+  color: rgb(5, 174, 5);
 }
 
 #accountBody {
@@ -56,10 +59,4 @@ body {
 
 #flagspic {
   width: 250px;
-}
-
-#hiddenButton {
-  color: rgb(78, 0, 126);
-  background-color: aqua;
-  display: inline-block;
 }
