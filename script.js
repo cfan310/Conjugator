@@ -15,10 +15,9 @@ let hiddenButton = document.getElementById("hidden-Button");
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
+  hiddenButton.style.display = "inline-block"; // and we will also reveal the "hide" button
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
-  hiddenButton.style.display = "inline-block";
-  // and we will also reveal the "hide" button
 }
 
 conjugateButton.addEventListener("click", showConjugationsOnClick);
