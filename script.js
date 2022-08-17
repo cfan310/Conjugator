@@ -41,16 +41,18 @@ function hideConjugationsOnClick() {
 buttonClick.addEventListener("click", showConjugationsOnClick);
 hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
+/*
+
 let mainTitle = document.getElementById("maintext");
 let changeTextButton = document.getElementById("mainTextButton");
 
-/*
+
 let newTitle = "French Verb Conjugator";
 
 function changeText() {
   mainTitle.innerHTML = newTitle;
 }
-*/
+
 
 changeTextButton.addEventListener("click", changeText);
 
@@ -82,3 +84,4 @@ addVerbToDiv();
 
 // adding css animation and google translate API key before
 // worrying about the conjugations
+*/
