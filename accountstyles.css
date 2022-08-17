@@ -8,7 +8,7 @@ body {
   color: rgb(211, 211, 211);
 }
 
-#hiddenButton {
+#hidden-Button {
   color: rgb(78, 0, 126);
   background-color: aqua;
   display: none;

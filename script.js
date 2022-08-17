@@ -1,23 +1,23 @@
-let conjugateButton = document.getElementById("button1");
+let conjugateButton = document.getElementById("conjugate-Button");
 
 let conjugationsReveal = document.getElementById("conjugations");
 
-let verbTranslation = document.getElementById("verbTranslation");
+let verbTranslation = document.getElementById("verb-Translation");
 
-let hideConjugation = document.getElementById("hideConjugations");
+//let hideConjugation = document.getElementById("hide-Conjugations");
 
 let conjugatedPopUp = document.getElementByClass("popUp");
 
 var conjugationsFromAPI;
 
-let hiddenButton = document.getElementById("hiddenButton");
+let hiddenButton = document.getElementById("hidden-Button");
 
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
-  hideConjugation.style.display = "inline-block";
+  hiddenButton.style.display = "inline-block";
   // and we will also reveal the "hide" button
 }
 
