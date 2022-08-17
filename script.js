@@ -28,12 +28,18 @@ function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
-  hideConjugations.style.display = "inline-block";
-
+  hideConjugation.style.display = "inline-block";
   // and we will also reveal the "hide" button
 }
 
+function hideConjugationsOnClick() {
+  conjugationsReveal.style.display = "none";
+  verbTranslation.style.display = "none";
+  hideConjugation.style.display = "none";
+}
+
 buttonClick.addEventListener("click", showConjugationsOnClick);
+hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
 let mainTitle = document.getElementById("maintext");
 let changeTextButton = document.getElementById("mainTextButton");

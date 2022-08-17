@@ -45,10 +45,12 @@ body {
 
 #verbTranslation {
   color: rgb(5, 174, 5);
+  display: block;
 }
 
 #conjugations {
   color: rgb(5, 174, 5);
+  display: block;
 }
 
 #hideConjugations {
