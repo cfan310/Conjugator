@@ -13,6 +13,7 @@ var conjugationsFromAPI;
 let hiddenButton = document.getElementById("hiddenButton");
 
 function showConjugationsOnClick() {
+  // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
@@ -20,14 +21,17 @@ function showConjugationsOnClick() {
   // and we will also reveal the "hide" button
 }
 
+conjugateButton.addEventListener("click", showConjugationsOnClick);
+// activate show conjugations function after clicking the conjugate button
+
+/*
 function hideConjugationsOnClick() {
   conjugationsReveal.style.display = "none";
   verbTranslation.style.display = "none";
   hideConjugation.style.display = "none";
 }
 
-buttonClick.addEventListener("click", showConjugationsOnClick);
-hideConjugation.addEventListener("click", hideConjugationsOnClick);
+//hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
@@ -40,7 +44,7 @@ hiddenButton.addEventListener("click", hideButtonOnClick);
 // <div class="answerPopUp" onclick="popUp()">
 
 // function popUp() {}
-
+*/
 /*
 
 let mainTitle = document.getElementById("maintext");
