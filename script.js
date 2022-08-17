@@ -12,18 +12,6 @@ var conjugationsFromAPI;
 
 let hiddenButton = document.getElementById("hiddenButton");
 
-function hideButtonOnClick() {
-  hiddenButton.style.display = "none";
-}
-
-hiddenButton.addEventListener("click", hideButtonOnClick);
-
-// on click, show conjugations in a POP UP
-
-// <div class="answerPopUp" onclick="popUp()">
-
-// function popUp() {}
-
 function showConjugationsOnClick() {
   conjugationsReveal.style.display = "block";
   verbTranslation.innerHTML = "poner"; // example
@@ -40,6 +28,18 @@ function hideConjugationsOnClick() {
 
 buttonClick.addEventListener("click", showConjugationsOnClick);
 hideConjugation.addEventListener("click", hideConjugationsOnClick);
+
+function hideButtonOnClick() {
+  hiddenButton.style.display = "none";
+}
+
+hiddenButton.addEventListener("click", hideButtonOnClick);
+
+// on click, show conjugations in a POP UP
+
+// <div class="answerPopUp" onclick="popUp()">
+
+// function popUp() {}
 
 /*
 
