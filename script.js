@@ -1,4 +1,4 @@
-let buttonClick = document.getElementById("button1");
+let conjugateButton = document.getElementById("button1");
 
 let conjugationsReveal = document.getElementById("conjugations");
 
