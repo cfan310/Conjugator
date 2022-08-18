@@ -18,13 +18,23 @@
     </h1>
     <br></br>
     <form onsubmit="return false;">
-      Spanish Verb: <input id="verb" type="text" />
       <form>
-        Tense: <input id="tense" type="text" /><button id="conjugate-Button">
+        Spanish Verb: <input id="spanishVerb" type="text" />
+        <form action="#">Tense:
+          <select name="tenses" id="tens">
+            <option>Translation</option>
+            <option>Present (I speak)</optiion>
+            <option>Present Progressive (I'm speaking)</optiion>
+            <option>Present Perfect (I have spoken)</optiion>
+            <option>Preterite (I spoke)</optiion>
+            <option>Future (I was speaking, I used to speak)</optiion>
+            <option>Conditional (I would speak)</optiion>
+          </select>
+        </form>
+        <button id="conjugate-Button">
           Conjugate
         </button>
       </form>
-    </form>
 
     <break></break>
   
@@ -41,15 +51,6 @@
   
     </div>
 
-    <form action="#">Scroll Down Menu
-      <select name="tenses" id="tens"></select>
-      <option>Present (I speak)</optiion>
-      <option>Present Progressive</optiion>
-      <option>Present Perfect</optiion>
-      <option>Preterite</optiion>
-      <option>Future</optiion>
-      <option>Conditional</optiion>
-    </form>
     
     <script src="script.js"></script>
   </body>

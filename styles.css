@@ -31,7 +31,7 @@ body {
   padding: 0;
   box-sizing: inherit;
   text-align: center;
-  background-color: rgb(37, 32, 32);
+  background-color: #033b3c;
   font-family: Arial;
   color: rgb(211, 211, 211);
 }
@@ -40,16 +40,16 @@ body {
   text-align: center;
   font-family: "Mukta", serif;
   font-size: 40px;
-  color: rgb(211, 211, 211);
+  color: rgb(44, 248, 235);
 }
 
 #verb-Translation {
-  color: rgb(5, 174, 5);
+  color: rgb(14, 237, 14);
   display: none;
 }
 
 #conjugations {
-  color: rgb(5, 174, 5);
+  color: rgb(32, 223, 32);
   display: none;
 }
 
@@ -65,4 +65,9 @@ body {
 
 #flagspic {
   width: 250px;
+}
+
+#conjugate-Button {
+  padding: 1px 0;
+  margin: 20px auto 0 auto;
 }
