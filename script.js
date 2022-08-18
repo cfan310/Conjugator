@@ -1,3 +1,5 @@
+// USE CHROME BROWSER CONSOLE TO DEBUG
+
 let conjugateButton = document.getElementById("conjugate-Button");
 
 let conjugationsReveal = document.getElementById("conjugations");
