@@ -6,7 +6,7 @@ let verbTranslation = document.getElementById("verb-Translation");
 
 //let hideConjugation = document.getElementById("hide-Conjugations");
 
-let conjugatedPopUp = document.getElementByClass("popUp");
+//let conjugatedPopUp = document.getElementByClass("popUp");
 
 var conjugationsFromAPI;
 
@@ -15,13 +15,18 @@ let hiddenButton = document.getElementById("hidden-Button");
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
-  hiddenButton.style.display = "inline-block"; // and we will also reveal the "hide" button
+  //hiddenButton.style.display = "inline-block"; // and we will also reveal the "hide" button
   verbTranslation.innerHTML = "poner"; // example
   conjugationsReveal.innerHTML = "to put; to place";
 }
 
 conjugateButton.addEventListener("click", showConjugationsOnClick);
 // activate show conjugations function after clicking the conjugate button
+
+// button click problem is solved; still need to figure out why hide-Button won't initialize and
+// why it's breaking the entire conjugations on click function
+
+//
 
 /*
 function hideConjugationsOnClick() {
