@@ -25,8 +25,6 @@ function showConjugationsOnClick() {
 conjugateButton.addEventListener("click", showConjugationsOnClick);
 // activate show conjugations function after clicking the conjugate button
 
-//
-
 /*
 function hideConjugationsOnClick() {
   conjugationsReveal.style.display = "none";
