@@ -17,23 +17,23 @@ let hiddenButton = document.getElementById("hidden-Button");
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
-  verbTranslation.innerHTML = "poner"; // example
-  conjugationsReveal.innerHTML = "to put; to place";
+  verbTranslation.innerHTML = "hablar"; // trobuleshoot why this hard-coded poner doesn't show up
+  conjugationsReveal.innerHTML = "hablar = to speak";
   hiddenButton.style.display = "inline-block"; // and we will also reveal the "hide" button
 }
 
 conjugateButton.addEventListener("click", showConjugationsOnClick);
 // activate show conjugations function after clicking the conjugate button
 
-/*
 function hideConjugationsOnClick() {
   conjugationsReveal.style.display = "none";
   verbTranslation.style.display = "none";
   hideConjugation.style.display = "none";
 }
 
-//hideConjugation.addEventListener("click", hideConjugationsOnClick);
+hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
+/*
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
 }
