@@ -90,3 +90,5 @@ addVerbToDiv();
 // adding css animation and google translate API key before
 // worrying about the conjugations
 */
+
+// API config
