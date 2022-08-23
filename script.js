@@ -33,6 +33,8 @@ function hideConjugationsOnClick() {
 
 hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
+// Add Popup for conjugations >> CSS animations and sound effects
+
 /*
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
