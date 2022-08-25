@@ -94,3 +94,8 @@ addVerbToDiv();
 */
 
 // API config
+
+// Add account settings, then create general data structure to hold the 100 most common verbs.
+// Follow the above with a Google Translate API and get translation functionality.
+// Then add conjugations and format with CSS
+// Then add flashcard game Node.js backend
