@@ -70,4 +70,13 @@ body {
 #conjugate-Button {
   padding: 1px 0;
   margin: 20px auto 0 auto;
+  margin-top: 20px;
+}
+
+#spanishVerb {
+  margin-right: 10px;
+}
+
+#tense-Form {
+  margin-left: 50px;
 }

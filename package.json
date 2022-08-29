@@ -1,0 +1,23 @@
+{
+  "name": "conjugator",
+  "version": "1.0.0",
+  "description": "Node.js server info for conjugator app",
+  "main": "script.js",
+  "scripts": {
+    "start": "backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfan310/Conjugator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfan310/Conjugator/issues"
+  },
+  "homepage": "https://github.com/cfan310/Conjugator#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
