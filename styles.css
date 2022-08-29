@@ -80,6 +80,11 @@ body {
   font-size: 16px;
 }
 
+#conjugationHeader {
+  color: rgb(44, 248, 235);
+  border-style: dashed;
+}
+
 #spanishVerb {
   margin-right: 10px;
 }
