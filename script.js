@@ -1,5 +1,8 @@
 // USE CHROME BROWSER CONSOLE TO DEBUG
 /*
+const { json } = require("stream/consumers");
+
+
 let conjugateButton = document.getElementById("conjugate-Button");
 
 let conjugationsReveal = document.getElementById("conjugations");
@@ -35,7 +38,7 @@ hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
 // Add Popup for conjugations >> CSS animations and sound effects
 
-/*
+
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
 }
@@ -47,8 +50,7 @@ hiddenButton.addEventListener("click", hideButtonOnClick);
 // <div class="answerPopUp" onclick="popUp()">
 
 // function popUp() {}
-*/
-/*
+
 
 let mainTitle = document.getElementById("maintext");
 let changeTextButton = document.getElementById("mainTextButton");
@@ -100,6 +102,7 @@ addVerbToDiv();
 // Then add conjugations and format with CSS
 // Then add flashcard game Node.js backend
 
+*/
 const jsonData =
   '{ "verb": { "name": "haber", "translation": "to speak", "conjugations": 7, "isCommon": true, "rating": null } }';
 
@@ -112,12 +115,7 @@ const verbTrans = jsObject.verb;
 console.log(verbTrans);
 
 console.log(verbTrans.name, verbTrans.translation, verbTrans.isCommon);
-*/
-const jsonData =
-  '{ "parent": { "name": "Sally", "age": 45, "children" : [ { "name": "Kim", "age": 3 }, { "name": "Lee", "age": 1 } ] } }';
 
-const jsObject = JSON.parse(jsonData);
+const jsonReturn = JSON.stringify(jsObject); // return jsObject to original JSON form
 
-console.log(jsObject);
-
-console.log(jsObject.parent["name"]);
+console.log(jsonReturn);
