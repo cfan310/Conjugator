@@ -106,3 +106,9 @@ const jsonData =
 const jsObject = JSON.parse(jsonData);
 
 console.log(jsObject);
+
+const verbTrans = jsObject.verb;
+
+console.log(verbTrans);
+
+console.log(verbTrans.name, verbTrans.translation, verbTrans.isCommon);
