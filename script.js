@@ -1,5 +1,5 @@
 // USE CHROME BROWSER CONSOLE TO DEBUG
-
+/*
 let conjugateButton = document.getElementById("conjugate-Button");
 
 let conjugationsReveal = document.getElementById("conjugations");
@@ -99,3 +99,10 @@ addVerbToDiv();
 // Follow the above with a Google Translate API and get translation functionality.
 // Then add conjugations and format with CSS
 // Then add flashcard game Node.js backend
+
+const jsonData =
+  '{ "verb": { "name": "haber", "translation": "to speak", "conjugations": 7, "isCommon": true, "rating": null } }';
+
+const jsObject = JSON.parse(jsonData);
+
+console.log(jsObject);
