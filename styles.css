@@ -2,6 +2,8 @@
   color: rgb(5, 174, 5);
   font-size: 20px;
   margin: 50px auto 0 auto;
+  margin-right: 5px;
+  color: rgb(32, 223, 32);
 }
 
 /*popup container to hold conjugated verbs and Spanish > English translation*/
@@ -65,6 +67,7 @@ body {
 
 #flagspic {
   width: 250px;
+  margin-bottom: 10px;
 }
 
 #conjugate-Button {
