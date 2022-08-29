@@ -91,7 +91,7 @@ addVerbToDiv();
 
 // adding css animation and google translate API key before
 // worrying about the conjugations
-*/
+
 
 // API config
 
@@ -112,3 +112,12 @@ const verbTrans = jsObject.verb;
 console.log(verbTrans);
 
 console.log(verbTrans.name, verbTrans.translation, verbTrans.isCommon);
+*/
+const jsonData =
+  '{ "parent": { "name": "Sally", "age": 45, "children" : [ { "name": "Kim", "age": 3 }, { "name": "Lee", "age": 1 } ] } }';
+
+const jsObject = JSON.parse(jsonData);
+
+console.log(jsObject);
+
+console.log(jsObject.parent["name"]);
