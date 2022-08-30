@@ -1,7 +1,9 @@
 // USE CHROME BROWSER CONSOLE TO DEBUG
 /*
 const { json } = require("stream/consumers");
+*/
 
+//alert("SELECT LANGUAGE");
 
 let conjugateButton = document.getElementById("conjugate-Button");
 
@@ -38,7 +40,6 @@ hideConjugation.addEventListener("click", hideConjugationsOnClick);
 
 // Add Popup for conjugations >> CSS animations and sound effects
 
-
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
 }
@@ -51,7 +52,7 @@ hiddenButton.addEventListener("click", hideButtonOnClick);
 
 // function popUp() {}
 
-
+/*
 let mainTitle = document.getElementById("maintext");
 let changeTextButton = document.getElementById("mainTextButton");
 
@@ -102,7 +103,7 @@ addVerbToDiv();
 // Then add conjugations and format with CSS
 // Then add flashcard game Node.js backend
 
-*/
+
 const jsonData =
   '{ "verb": { "name": "haber", "translation": "to speak", "conjugations": 7, "isCommon": true, "rating": null } }';
 
@@ -119,3 +120,4 @@ console.log(verbTrans.name, verbTrans.translation, verbTrans.isCommon);
 const jsonReturn = JSON.stringify(jsObject); // return jsObject to original JSON form
 
 console.log(jsonReturn);
+*/
