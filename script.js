@@ -5,13 +5,24 @@ const { json } = require("stream/consumers");
 
 //alert("SELECT LANGUAGE");
 
+const toSpeak = {
+  present: "I speak",
+  "present progressive": "I am speaking",
+  "present perfect": "I have spoken",
+  preterite: "I spoke",
+  future: "I was speaking",
+  conditional: "I would speak",
+};
+
+console.log(toSpeak);
+
 let conjugateButton = document.getElementById("conjugate-Button");
 
 let conjugationsReveal = document.getElementById("conjugations");
 
 let verbTranslation = document.getElementById("verb-Translation");
 
-//let hideConjugation = document.getElementById("hide-Conjugations");
+let hideConjugation = document.getElementById("hide-Conjugations");
 
 //let conjugatedPopUp = document.getElementByClass("popUp");
 
