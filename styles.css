@@ -74,6 +74,12 @@ body {
   margin-bottom: 25px;
 }
 
+#germanFlag {
+  width: 250px;
+  margin-bottom: 25px;
+  height: 200px;
+}
+
 #conjugate-Button {
   width: 90px;
   height: 35px;
