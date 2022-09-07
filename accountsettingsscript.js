@@ -1,1 +1,2 @@
-const changeImage = document.getElementById("chaneImageBtn");
+const changeImage = document.getElementById("changeImageBtn");
+
