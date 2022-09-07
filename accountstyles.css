@@ -13,3 +13,7 @@ body {
   background-color: aqua;
   display: none;
 }
+
+.centerElements {
+  margin-top: 40px;
+}
