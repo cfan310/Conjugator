@@ -56,3 +56,9 @@ function hideButtonOnClick() {
 }
 
 hiddenButton.addEventListener("click", hideButtonOnClick);
+
+// next step:
+
+// Add hard-coded conjugations to CSS styled pop-up window upon click.
+// The popup window will hold the hide button
+// restructure the HTML into divs
