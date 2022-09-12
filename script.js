@@ -15,6 +15,17 @@ var conjugationsFromAPI;
 
 let hiddenButton = document.getElementById("hidden-Button");
 
+// On Monday Sept 12th we need to make a popup appear with the hard-coded yo hablar conjugation and work from there
+// and store 10 common verbs into objects, then use prototype knowledge to take it further
+
+function showTable() {
+  conjugateButton.innerHTML(conjugationsTable);
+  conjugationsTable.style.display = "block";
+  verbTranslation.innerHTML = "hablar";
+  hiddenButton.style.display = "inline-block";
+}
+
+/*
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example
   conjugationsReveal.style.display = "block";
@@ -26,7 +37,7 @@ function showConjugationsOnClick() {
 conjugateButton.addEventListener("click", showConjugationsOnClick);
 // activate show conjugations function after clicking the conjugate button
 
-/*
+
 function hideConjugationsOnClick() {
   conjugationsReveal.style.display = "none";
   verbTranslation.style.display = "none";
@@ -46,12 +57,7 @@ hiddenButton.addEventListener("click", hideButtonOnClick);
 const conjugationsTable = document.getElementById("conjugationsTable");
 
 // linked to clickme function in above variable
-function showTable() {
-  conjugateButton.innerHTML(conjugationsTable);
-  conjugationsTable.style.display = "block";
-  verbTranslation.innerHTML = "hablar";
-  hiddenButton.style.display = "inline-block";
-}
+
 */
 // Let's make this table pop up
 
