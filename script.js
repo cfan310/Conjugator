@@ -2,19 +2,7 @@
 /*
 const { json } = require("stream/consumers");
 */
-
 //alert("SELECT LANGUAGE");
-
-const toSpeak = {
-  present: "I speak",
-  "present progressive": "I am speaking",
-  "present perfect": "I have spoken",
-  preterite: "I spoke",
-  future: "I was speaking",
-  conditional: "I would speak",
-};
-
-console.log(toSpeak);
 
 let conjugateButton = document.getElementById("conjugate-Button");
 let conjugationsReveal = document.getElementById("conjugations");
@@ -38,15 +26,13 @@ function showConjugationsOnClick() {
 conjugateButton.addEventListener("click", showConjugationsOnClick);
 // activate show conjugations function after clicking the conjugate button
 
+/*
 function hideConjugationsOnClick() {
   conjugationsReveal.style.display = "none";
   verbTranslation.style.display = "none";
   hideConjugation.style.display = "none";
 }
-
 hideConjugation.addEventListener("click", hideConjugationsOnClick);
-
-// Add Popup for conjugations >> CSS animations and sound effects
 
 function hideButtonOnClick() {
   hiddenButton.style.display = "none";
@@ -54,10 +40,19 @@ function hideButtonOnClick() {
 
 hiddenButton.addEventListener("click", hideButtonOnClick);
 
+
 // next step:
 // We now have the conjugations tale in html so here we add it to a js variable
 const conjugationsTable = document.getElementById("conjugationsTable");
 
+// linked to clickme function in above variable
+function showTable() {
+  conjugateButton.innerHTML(conjugationsTable);
+  conjugationsTable.style.display = "block";
+  verbTranslation.innerHTML = "hablar";
+  hiddenButton.style.display = "inline-block";
+}
+*/
 // Let's make this table pop up
 
 // so for this
