@@ -17,11 +17,8 @@ const toSpeak = {
 console.log(toSpeak);
 
 let conjugateButton = document.getElementById("conjugate-Button");
-
 let conjugationsReveal = document.getElementById("conjugations");
-
 let verbTranslation = document.getElementById("verb-Translation");
-
 let hideConjugation = document.getElementById("hide-Conjugations");
 
 //let conjugatedPopUp = document.getElementByClass("popUp");
@@ -62,6 +59,11 @@ hiddenButton.addEventListener("click", hideButtonOnClick);
 const conjugationsTable = document.getElementById("conjugationsTable");
 
 // Let's make this table pop up
+
+// so for this
+// let conjugateButton = document.getElementById("conjugate-Button");
+
+// POPUP ON CLICK WITH THE conjugationsTable innerHTML
 
 // Add hard-coded conjugations to CSS styled pop-up window upon click.
 // The popup window will hold the hide button
