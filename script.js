@@ -58,6 +58,10 @@ function hideButtonOnClick() {
 hiddenButton.addEventListener("click", hideButtonOnClick);
 
 // next step:
+// We now have the conjugations tale in html so here we add it to a js variable
+const conjugationsTable = document.getElementById("conjugationsTable");
+
+// Let's make this table pop up
 
 // Add hard-coded conjugations to CSS styled pop-up window upon click.
 // The popup window will hold the hide button
