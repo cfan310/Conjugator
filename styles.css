@@ -10,6 +10,13 @@
   border-radius: 20px;
 }
 
+.popup {
+  /* Popup container */
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
 /*popup container to hold conjugated verbs and Spanish > English translation*/
 .answerPopUp {
   position: relative;
@@ -17,7 +24,7 @@
   cursor: pointer;
 }
 
-.popup .popuptext {
+.popuptext {
   visibility: hidden;
   width: 160px;
   background-color: #555;
