@@ -102,3 +102,9 @@ body {
 #tense-Form {
   margin-left: 50px;
 }
+
+#conjugationsTable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
