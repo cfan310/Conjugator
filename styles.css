@@ -44,19 +44,22 @@ body {
   padding: 0;
   box-sizing: inherit;
   text-align: center;
-  background-color: #033b3c;
+  background-color: #007577;
   font-family: Arial;
   color: rgb(211, 211, 211);
 }
 
-.modal-window {
+/* Modal CSS */
+.modal {
+  display: none; /* Hidden by default */
 }
 
 #maintext {
   text-align: center;
   font-family: "Rubik", serif;
   font-size: 55px;
-  color: rgb(252, 226, 76);
+  color: rgb(251, 255, 0);
+  font-weight: bolder;
 }
 
 #verb-Translation {
@@ -107,6 +110,7 @@ body {
 
 #spanishVerb {
   margin-right: 10px;
+  font-size: large;
 }
 
 #tense-Form {
@@ -119,4 +123,8 @@ body {
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.verbForm {
+  font-size: large;
 }
