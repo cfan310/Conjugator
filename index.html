@@ -58,7 +58,7 @@
       <h3 id="conjugationsFromAPI"></h3>
   
     </div>
-    <textarea>text...</textarea>
+    <!--<textarea>text...</textarea>--!
 
     <!--Below will be shown in a pop up after hitting the conugate button.
     We will first hard-code 10 Spanish verbs in objects, then connect the search
@@ -69,7 +69,7 @@ which we can click to go back to original page and try out a different verb
 Later we will connect to translate API, automatically translate, and then a 
 conjugated verbs API if necessary (or scrape the web and add to conjugated verbs object code)-->
 
-    <table class="popup" onclick="showTable()" id="conjugationsTable">Click to show conjugation table>
+    <table class="popup" onclick="showTable()" id="conjugationsTable">
       <tr>
         <th>Verb</th>
         <th>Type</th>
@@ -128,11 +128,13 @@ conjugated verbs API if necessary (or scrape the web and add to conjugated verbs
         <td>hablaban</td> <!--For these, on mouseover, use API to give english part of speech (ex. "they were speaking" on mouseover, with API for pronunciation sound effects)-->
         <td>hablarían</td>
         <td>hablarán</td>
-
-
-      <tr>
-        <td></td>
       </tr>
+    </table>
+
+      <!--Button that opens the modal when clicked -->
+      <button id="modalBtn">Open Modal</button>
+
+      <div class="modal-window"></div>
 
     
     <script src="script.js"></script>
