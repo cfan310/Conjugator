@@ -21,3 +21,5 @@ function Conjugations(englishVerb) {
 var hablar = new Conjugations();
 
 var poner = new Conjugations();
+
+// find best object structure; hard code at first, then connect API, then re-code on top of API GET requests for conjugations in modal window
