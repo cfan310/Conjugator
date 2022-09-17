@@ -19,3 +19,5 @@ function Conjugations(englishVerb) {
 }
 
 var hablar = new Conjugations();
+
+var poner = new Conjugations();
