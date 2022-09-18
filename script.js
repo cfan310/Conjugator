@@ -28,6 +28,34 @@ function showTable() {
 
 conjugateButton.onclick = showTable();
 
+function Conjugations(
+  translation,
+  present,
+  preterite,
+  imperfect,
+  conditional,
+  future
+) {
+  this.translation = translation; // pass google api translation funciton
+  this.present = present;
+  this.preterite = preterite; // these conjugations will be stored as subobjects or arrays
+  this.imperfect = imperfect;
+  this.conditional = conditional;
+  this.future = future;
+}
+
+// translation specific verb object made with "new" object constructor
+// later we will add these to the modal window, organized in an html table
+var hablar = new Conjugations(
+  ["hablar = to talk; to speak"],
+  // present tense
+  ["habla, halbas, habla, hablamos, habláis, hablan"]
+);
+
+var poner = new Conjugations();
+
+console.log(hablar.present);
+
 /*
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example

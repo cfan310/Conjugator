@@ -22,8 +22,14 @@ function Conjugations(verb) {
   this.future = future;
 }
 
-var hablar = new Conjugations();
+var hablar = new Conjugations(
+  ["hablar = to talk; to speak"],
+  // present tense
+  ["habla, halbas, habla, hablamos, habláis, hablan"]
+);
 
 var poner = new Conjugations();
+
+console.log(hablar.present);
 
 // find best object structure; hard code at first, then connect API, then re-code on top of API GET requests for conjugations in modal window
