@@ -97,6 +97,7 @@ body {
   border-color: rgb(44, 248, 235);
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #conjugationHeader {
@@ -125,10 +126,10 @@ body {
   font-size: large;
 }
 
-/*
 #modalBtn {
   margin-bottom: 200px;
-}*/
+  cursor: pointer;
+}
 
 /* Modal CSS */
 .modal {

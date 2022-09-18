@@ -68,6 +68,7 @@ var modalContent = document.getElementsByClassName("mainModal");
 var span = document.getElementsByClassName("close")[0];
 // when the user clicks the modal button, open the modal
 modalBtn.addEventListener("click", function () {
+  //console.log("hello");
   modal.style.display = "block";
 });
 // when user clicks <span> close the modal
