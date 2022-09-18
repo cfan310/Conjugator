@@ -49,11 +49,6 @@ body {
   color: rgb(211, 211, 211);
 }
 
-/* Modal CSS */
-.modal {
-  display: none; /* Hidden by default */
-}
-
 #maintext {
   text-align: center;
   font-family: "Rubik", serif;
@@ -127,4 +122,14 @@ body {
 
 .verbForm {
   font-size: large;
+}
+
+#modalBtn {
+  margin-bottom: 200px;
+}
+
+/* Modal CSS */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* stay in place */
 }
