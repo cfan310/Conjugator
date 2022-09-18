@@ -7,12 +7,16 @@ const toSpeak = {
   conditional: "I would speak",
 };
 
+// for hard-coded conjugations:
+// form imput recognized by event handler to request specific object from the
+// many hard coded objects. Conjugations will then display in the modal window.
+
 console.log(toSpeak["present perfect"]);
 
-function Conjugations(englishVerb) {
+function Conjugations(verb) {
   this.translation = translation; // pass google api translation funciton
   this.present = present;
-  this.preterite = preterite;
+  this.preterite = preterite; // these conjugations will be stored as subobjects or arrays
   this.imperfect = imperfect;
   this.conditional = conditional;
   this.future = future;
