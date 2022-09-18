@@ -56,6 +56,31 @@ var poner = new Conjugations();
 
 console.log(hablar.present);
 
+// MODAL WINDOW POPUP TEST FUNCTIONALITY
+
+// get the modal itself
+var modal = document.getElementsByClassName("modal");
+// get button that opens the modal
+var modalBtn = document.getElementById("modalBtn");
+// get the modal content
+var modalContent = document.getElementsByClassName("mainModal");
+// span element that closes the modal window
+var span = document.getElementsByClassName("close")[0];
+// when the user clicks the modal button, open the modal
+modalBtn.addEventListener("click", function () {
+  modal.style.display = "block";
+});
+// when user clicks <span> close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
+// close modal if user clicks anywhere outside of it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = none;
+  }
+};
+
 /*
 function showConjugationsOnClick() {
   // function to reveal hard-coded conjugation example

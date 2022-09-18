@@ -10,14 +10,15 @@
   border-radius: 20px;
 }
 
+/*
 .popup {
-  /* Popup container */
+   Popup container 
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-/*popup container to hold conjugated verbs and Spanish > English translation*/
+/* opup container to hold conjugated verbs and Spanish > English translation
 .answerPopUp {
   position: relative;
   display: inline-block;
@@ -37,7 +38,7 @@
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
-}
+}*/
 
 body {
   margin: 0;
@@ -124,9 +125,10 @@ body {
   font-size: large;
 }
 
+/*
 #modalBtn {
   margin-bottom: 200px;
-}
+}*/
 
 /* Modal CSS */
 .modal {
@@ -153,4 +155,13 @@ body {
 /* close button */
 .close {
   color: rgb(189, 189, 189);
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
 }
