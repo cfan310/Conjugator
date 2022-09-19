@@ -20,7 +20,10 @@
     <h1 id="maintext" href="https://fonts.googleapis.com/css?family=Mukta">
       <bold>Conjugate-It</bold>
     </h1>
+
     <br></br>
+
+
     <form onsubmit="return false;">
       <form class="verbForm" style="color: white">
         Spanish Verb: <input id="spanishVerb" type="text" />
@@ -35,6 +38,43 @@
             <option>Future (I will talk)</option>
           </select>
         </form>
+
+
+        <div class="form-content">
+          <form onsubmit="return false;">
+            <form class="verbForm" style="color: white">
+              Spanish Verb:
+              <!--
+              <input id="spanishVerb" type="text" />--> 
+              <select>
+                <option class="spanishVerb">hablar</option>
+                <option class="spanishVerb">poner</option>
+                <option class="spanishVerb">comer</option>
+                <option class="spanishVerb">vivir</option>
+                <option class="spanishVerb">beber</option>
+              </select> 
+       
+      
+              <br>
+              <form id="tense-Form" action="#">Tense:
+                <select name="tenses" id="tens">
+                  <option class="tenseSelection">All Tenses</option>
+                  <option class="tenseSelection">Translation</option>
+                  <option class="tenseSelection">Present (I talk)</option>
+                  <option class="tenseSelection">Preterite (I talked)</option>
+                  <option class="tenseSelection">Imperfect (I was talking)</option>
+                  <option class="tenseSelection">Conditional (I would talk)</option>
+                  <option class="tenseSelection">Future (I will talk)</option>
+                </select>
+              </form>
+            </div>
+
+
+
+
+
+
+
 
       <div>
         <button id="conjugate-Button">
