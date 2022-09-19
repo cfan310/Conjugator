@@ -100,6 +100,10 @@ body {
   cursor: pointer;
 }
 
+#conjugate-Button:hover {
+  background: rgb(163, 255, 163);
+}
+
 #conjugationHeader {
   color: rgb(44, 248, 235);
   border-style: none;
@@ -129,6 +133,10 @@ body {
 #modalBtn {
   margin-bottom: 200px;
   cursor: pointer;
+}
+
+#modalBtn:hover {
+  background: rgb(127, 245, 127);
 }
 
 /* Modal CSS */
