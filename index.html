@@ -71,12 +71,48 @@
             </div>
 
 
+            <br>
+
+
+
+            <div class="content">
+              <div id="modal-window">
+                <div id="conjugations-table">
+                  <table>
+                    <tr class="mainRow">
+                      <th>yo</th>
+                      <th>tú</th>
+                      <th>él/ella/Ud.</th>
+                      <th>nosotros</th>
+                      <th>vosotros</th>
+                      <th>ellos/ellas/Uds.</th>
+                    </tr>
+                    <tr>
+                      <td class="presentTense" id="yoPresentTense">como</td>
+                      <td class="presentTense" id="tuPresentTense">comes</td>
+                      <td class="presentTense" id="ustedPresentTense">come</td>
+                      <td class="presentTense" id="nosPresentTense">comemos</td>
+                      <td class="presentTense" id="vosPresentTense">coméis</td>
+                      <td class="presentTense" id="ustedesPresentTense">comen</td>
+                    </tr>
+      
+      
+                  </table>
+      
+      
+      
+                </div>
+                <p>Conjugation object in table form displays here</p>
+                <button id="close-modal-button">Close Window</button>
+              </div>
 
 
 
 
 
 
+
+<!---
       <div>
         <button id="conjugate-Button">
           Conjugate
@@ -87,10 +123,9 @@
 
     <break></break>
   
-<!---
     <div class="answerPopUp" onclick="showConjugationsOnClick()">CLICK ME
       <span class="popuptext" onclick="showConjugationsOnClick()">popup text</span>
-    -->
+  
 
       <h2 id="conjugationHeader">Conjugation:</h2>
       <h2 id="verb-Translation"></h2>
@@ -99,11 +134,11 @@
       <h3 id="conjugationsFromAPI"></h3>
   
     </div>
-    <!--<textarea>text...</textarea>--!-->
+  
 
 
 
-<!--
+
     <table class="popup" onclick="showTable()" id="conjugationsTable">
       <tr>
         <th>Verb</th>
