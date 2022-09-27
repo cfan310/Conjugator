@@ -6,218 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conjugator App</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik"
+    />
   </head>
   <body>
     <div>
       <img id="flagspic" src="flags.png" width="400px" />
       <!-- <img id="germanFlag" src="german flag.png" width="350px"> -->
     </div>
-  <div class="bColor">
-    <a id="aColor" href="index.html">Home</a>
-    <a id="aColor" href="account.html">Account</a>
-    <a id="aColor" href="index.html">Flashcards</a>
-    <a id="aColor" href="translator.html">Translator</a>
-    <a id="aColor" href="index.html">Stats</a>
-    <a id="aColor" href="index.html">Settings</a>
-    <h1 id="maintext" href="https://fonts.googleapis.com/css?family=Mukta">
-      <bold>Conjugate-It</bold>
-    </h1>
-  </div>
+    <div class="bColor">
+      <a id="aColor" href="index.html">Home</a>
+      <a id="aColor" href="account.html">Account</a>
+      <a id="aColor" href="index.html">Flashcards</a>
+      <a id="aColor" href="translator.html">Translator</a>
+      <a id="aColor" href="index.html">Stats</a>
+      <a id="aColor" href="index.html">Settings</a>
+      <h1 id="maintext" href="https://fonts.googleapis.com/css?family=Mukta">
+        <bold>Conjugate-It</bold>
+      </h1>
+    </div>
 
-  <div>
-    <!--<form class="verbForm">
+    <div>
+      <!--<form class="verbForm">
       <label for="tenseInput">Tense: </label>
       <input id="tenseInput" name="tenseInput" type="text" />
     </form>-->
-    <form action="#" id="formSubmission" method="get">
-      <span>Verb:</span>
-      <input id="verbInput" name="verbInput" type="text" />
-      <button id="conjugateButton">Conjugate</button>
-    </form>
-  </div>
-
-    <br></br>
-
-
-
-        <div class="form-content">
-          <form onsubmit="return false;">
-            <form class="verbForm" style="color: white">
-              Spanish Verb:
-              <!--
-              <input id="spanishVerb" type="text" />--> 
-              <select>
-                <option class="spanishVerb">hablar</option>
-                <option class="spanishVerb">poner</option>
-                <option class="spanishVerb">comer</option>
-                <option class="spanishVerb">vivir</option>
-                <option class="spanishVerb">beber</option>
-              </select>   
-       
-      
-              <br>
-              <form id="tense-Form" action="#">Tense:
-                <select name="tenses" id="tens">
-                  <option class="tenseSelection">All Tenses</option>
-                  <option class="tenseSelection">Translation</option>
-                  <option class="tenseSelection">Present (I talk)</option>
-                  <option class="tenseSelection">Preterite (I talked)</option>
-                  <option class="tenseSelection">Imperfect (I was talking)</option>
-                  <option class="tenseSelection">Conditional (I would talk)</option>
-                  <option class="tenseSelection">Future (I will talk)</option>
-                </select>
-              </form>
-            </div>
-
-
-            <br>
-
-
-
-            <div class="content">
-              <div id="modal-window">
-                <div id="conjugations-table">
-                  <table>
-                    <tr class="mainRow">
-                      <th>yo</th>
-                      <th>tú</th>
-                      <th>él/ella/Ud.</th>
-                      <th>nosotros</th>
-                      <th>vosotros</th>
-                      <th>ellos/ellas/Uds.</th>
-                    </tr>
-                    <tr>
-                      <td class="presentTense" id="yoPresentTense">como</td>
-                      <td class="presentTense" id="tuPresentTense">comes</td>
-                      <td class="presentTense" id="ustedPresentTense">come</td>
-                      <td class="presentTense" id="nosPresentTense">comemos</td>
-                      <td class="presentTense" id="vosPresentTense">coméis</td>
-                      <td class="presentTense" id="ustedesPresentTense">comen</td>
-                    </tr>
-      
-      
-                  </table>
-      
-      
-      
-                </div>
-                <p>Conjugation object in table form displays here</p>
-                <button id="close-modal-button">Close Window</button>
-              </div>
-
-
-
-
-
-
-
-<!---
-      <div>
-        <button id="conjugate-Button">
-          Conjugate
-        </button>
-
-      </div>
+      <form action="#" id="formSubmission" method="get">
+        <span>Verb:</span>
+        <input id="verbInput" name="verbInput" type="text" />
+        <button id="conjugateButton">Conjugate</button>
       </form>
-
-    <break></break>
-  
-    <div class="answerPopUp" onclick="showConjugationsOnClick()">CLICK ME
-      <span class="popuptext" onclick="showConjugationsOnClick()">popup text</span>
-  
-
-      <h2 id="conjugationHeader">Conjugation:</h2>
-      <h2 id="verb-Translation"></h2>
-      <h3 id="conjugations"></h3>
-      <button id="hidden-Button">Hide</button>
-      <h3 id="conjugationsFromAPI"></h3>
-  
     </div>
-  
 
-
-
-
-    <table class="popup" onclick="showTable()" id="conjugationsTable">
-      <tr>
-        <th>Verb</th>
-        <th>Type</th>
-        <th>Present (I talk)</th>
-        <th>Preterite (I talked)</th>
-        <th>Imperfect (I was talking)</th>
-        <th>Conditional (I would talk)</th>
-        <th>Future (I will talk)</th>
-      </tr>
-      <tr>
-        <td>hablar</td>
-        <td>yo</td>
-        <td>hablo</td>
-        <td>hablé</td>
-        <td>hablaba</td>
-        <td>hablaría</td>
-        <td>hablaré</td>
-      </tr>
-        <td>hablar</td>
-        <td>tú</td>
-        <td>hablas</td>
-        <td>hablaste</td>
-        <td>hablabas</td>
-        <td>hablarías</td>
-        <td>hablarás</td>
-      </tr>
-      </tr>
-        <td>hablar</td>
-        <td>él/ella/Ud.</td>
-        <td>habla</td>
-        <td>habló</td>
-        <td>hablaba</td>
-        <td>hablaría</td>
-        <td>hablará</td> 
-      </tr>
-        <td>hablar</td>
-        <td>nosotros</td>
-        <td>hablamos</td>
-        <td>hablamos</td>
-        <td>hablábamos</td>
-        <td>hablaríamos</td>
-        <td>hablaremos</td>
-      </tr>
-        <td>hablar</td>
-        <td>vosotros</td>
-        <td>habláis</td>
-        <td>hablasteis</td>
-        <td>hablabais</td>
-        <td>hablaríais</td>
-        <td>hablaréis</td>
-      </tr>
-        <td>hablar</td>
-        <td>ellos/ellas/Uds.</td>
-        <td>hablan</td>
-        <td>hablaron</td>
-        <td>hablaban</td> For these, on mouseover, use API to give english part of speech (ex. "they were speaking" on mouseover, with API for pronunciation sound effects)
-        <td>hablarían</td>
-        <td>hablarán</td>
-      </tr>
-    </table>
-
-      Button that opens the modal when clicked 
-      <button id="modalBtn">Open Conjugations Modal</button> 
-
-      The Model Itself
-      <div id="mainModal" class="modal">
-
-        Modal Content
-        <div class="modal-content">
-          <span class="close">& times</span>
-          <p>Conjugations go right here (add the entire table later programatically)</p>
-        </div>
+    <div>
+      <div id="modalWindow">
+        <table id="tableData">
+          <tr>
+            <th>Tense</th>
+            <th>Present</th>
+            <th>Preterite</th>
+            <th>Imperfect</th>
+            <th>Conditional</th>
+            <th>Future</th>
+          </tr>
+          <tr class="yoConjugations">
+            <td id="yo">yo</td>
+            <td id="yoPresent">como</td>
+            <td id="yoPreterite">comí</td>
+            <td id="yoImperfect">comía</td>
+            <td id="yoConditional">comería</td>
+            <td id="yoFuture">comeré</td>
+          </tr>
+          <tr>
+            <td id="tu">tú</td>
+            <td id="tuPresent">comes</td>
+            <td id="tuPreterite">comiste</td>
+            <td id="tuImperfect">comías</td>
+            <td id="tuConditional">comerías</td>
+            <td id="tuFuture">comerás</td>
+          </tr>
+          <tr>
+            <td id="usted">él/ella/Ud.</td>
+            <td id="ustedPresent">come</td>
+            <td id="ustedPreterite">comió</td>
+            <td id="ustedImperfect">comía</td>
+            <td id="ustedConditional">comería</td>
+            <td id="ustedFuture">comerá</td>
+          </tr>
+          <tr>
+            <td id="nos">nosotros</td>
+            <td id="nosPresent">comemos</td>
+            <td id="nosPreterite">comimos</td>
+            <td id="nosImperfect">comíamos</td>
+            <td id="nosConditional">comeríamos</td>
+            <td id="nosFuture">comeremos</td>
+          </tr>
+          <tr>
+            <td id="vos">vosotros</td>
+            <td id="vosPresent">coméis</td>
+            <td id="vosPreterite">comisteis</td>
+            <td id="vosImperfect">comíais</td>
+            <td id="vosConditional">comeríais</td>
+            <td id="vosFuture">comeréis</td>
+          </tr>
+          <tr>
+            <td id="ustedes">ellos/ellas/Uds.</td>
+            <td id="ustedesPresent">comen</td>
+            <td id="ustedesPreterite">comieron</td>
+            <td id="ustedesImperfect">comían</td>
+            <td id="ustedesConditional">comerían</td>
+            <td id="ustedesFuture">comerán</td>
+          </tr>
+        </table>
+        <button id="closeButton">Close Window</button>
       </div>
+    </div>
 
-      <div class="modal-window"></div>
--->
-    
-    
     <script src="script.js"></script>
   </body>
 </html>
