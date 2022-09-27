@@ -121,4 +121,123 @@ hideConjugations();
 function submit() {
   let verb = document.getElementById('verbInput').value;
   console.log(verb);
+  if (verb == 'hablar') {
+    yoPresent.innerHTML = hablar.present[0];
+    yoPreterite.innerHTML = hablar.preterite[0];
+    yoImperfect.innerHTML = hablar.imperfect[0];
+    yoConditional.innerHTML = hablar.conditional[0];
+    yoFuture.innerHTML = hablar.future[0];
+    tuPresent.innerHTML = hablar.present[1];
+    tuPreterite.innerHTML = hablar.preterite[1];
+    tuImperfect.innerHTML = hablar.imperfect[1];
+    tuConditional.innerHTML = hablar.conditional[1];
+    tuFuture.innerHTML = hablar.future[1];
+    ustedPresent.innerHTML = hablar.present[2];
+    ustedPreterite.innerHTML = hablar.preterite[2];
+    ustedImperfect.innerHTML = hablar.imperfect[2];
+    ustedConditional.innerHTML = hablar.conditional[2];
+    ustedFuture.innerHTML = hablar.future[2];
+    nosPresent.innerHTML = hablar.present[3];
+    nosPreterite.innerHTML = hablar.preterite[3];
+    nosImperfect.innerHTML = hablar.imperfect[3];
+    nosConditional.innerHTML = hablar.conditional[3];
+    nosFuture.innerHTML = hablar.future[3];
+    vosPresent.innerHTML = hablar.present[4];
+    vosPreterite.innerHTML = hablar.preterite[4];
+    vosImperfect.innerHTML = hablar.imperfect[4];
+    vosConditional.innerHTML = hablar.conditional[4];
+    vosFuture.innerHTML = hablar.future[4];
+    ustedesPresent.innerHTML = hablar.present[5];
+    ustedesPreterite.innerHTML = hablar.preterite[5];
+    ustedesImperfect.innerHTML = hablar.imperfect[5];
+    ustedesConditional.innerHTML = hablar.conditional[5];
+    ustedesFuture.innerHTML = hablar.future[5];
+  } else if (verb == 'comer') {
+    yoPresent.innerHTML = comer.present[0];
+    yoPreterite.innerHTML = comer.preterite[0];
+    yoImperfect.innerHTML = comer.imperfect[0];
+    yoConditional.innerHTML = comer.conditional[0];
+    yoFuture.innerHTML = comer.future[0];
+    tuPresent.innerHTML = comer.present[1];
+    tuPreterite.innerHTML = comer.preterite[1];
+    tuImperfect.innerHTML = comer.imperfect[1];
+    tuConditional.innerHTML = comer.conditional[1];
+    tuFuture.innerHTML = comer.future[1];
+    ustedPresent.innerHTML = comer.present[2];
+    ustedPreterite.innerHTML = comer.preterite[2];
+    ustedImperfect.innerHTML = comer.imperfect[2];
+    ustedConditional.innerHTML = comer.conditional[2];
+    ustedFuture.innerHTML = comer.future[2];
+    nosPresent.innerHTML = comer.present[3];
+    nosPreterite.innerHTML = comer.preterite[3];
+    nosImperfect.innerHTML = comer.imperfect[3];
+    nosConditional.innerHTML = comer.conditional[3];
+    nosFuture.innerHTML = comer.future[3];
+    vosPresent.innerHTML = comer.present[4];
+    vosPreterite.innerHTML = comer.preterite[4];
+    vosImperfect.innerHTML = comer.imperfect[4];
+    vosConditional.innerHTML = comer.conditional[4];
+    vosFuture.innerHTML = comer.future[4];
+    ustedesPresent.innerHTML = comer.present[5];
+    ustedesPreterite.innerHTML = comer.preterite[5];
+    ustedesImperfect.innerHTML = comer.imperfect[5];
+    ustedesConditional.innerHTML = comer.conditional[5];
+    ustedesFuture.innerHTML = comer.future[5];
+  } else {
+    // make popup window that says incorrect and reset the form. don't show any results.
+    alert('Incorrect entry. Please try again');
+    modalWindow.style.opacity = 0;
+    modalWindow.style.visibility = 'hidden';
+  }
 }
+
+const hablar = {
+  present: ['hablo', 'hablas', 'habla', 'hablamos', 'habláis', 'hablan '],
+  preterite: [
+    'hablé',
+    'hablaste',
+    'habló',
+    'hablamos',
+    'hablasteis',
+    'hablaron',
+  ],
+  imperfect: [
+    'hablaba',
+    'hablabas',
+    'hablaba',
+    'hablábamos',
+    'hablabais',
+    'hablanan',
+  ],
+  conditional: [
+    'hablaría',
+    'hablarías',
+    'hablaría',
+    'hablaríamos',
+    'hablarías',
+    'hablarían',
+  ],
+  future: [
+    'hablaré',
+    'hablarás',
+    'hablará',
+    'hablaremos',
+    'hablaréis',
+    'hablarán',
+  ],
+};
+
+const comer = {
+  present: ['como', 'comes', 'come', 'comemos', 'coméis', 'comen'],
+  preterite: ['comí', 'comiste', 'comió', 'comimos', 'comisteis', 'comieron'],
+  imperfect: ['comía', 'comías', 'comía', 'comíamos', 'comíais', 'comían'],
+  conditional: [
+    'comería',
+    'comerías',
+    'comería',
+    'comeríamos',
+    'comeríais',
+    'comerían',
+  ],
+  future: ['comeré', 'comerás', 'comerá', 'comeremos', 'comeréis', 'comerán'],
+};
