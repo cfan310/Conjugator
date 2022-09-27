@@ -12,7 +12,7 @@
   max-width: 300px;*/
   font-weight: 600;
 }
-#aColor.border {
+#aColor:border {
   opacity: 40;
 }
 
@@ -51,8 +51,19 @@ body {
   font-weight: bolder;
 }
 
+#conjugateButton:hover,
+#conjugateButton:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 #closeButton {
   margin-top: 20px;
+}
+#closeButton:hover,
+#closeButton:focus {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #verb-Translation {
@@ -86,6 +97,7 @@ body {
   height: 200px;
 }
 
+/*
 #conjugate-Button {
   width: 90px;
   height: 35px;
@@ -134,7 +146,7 @@ body {
 
 #modalBtn:hover {
   background: rgb(127, 245, 127);
-}
+}*/
 
 /* Modal CSS */
 .modal {
