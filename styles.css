@@ -28,12 +28,23 @@ body {
   visibility: hidden;
 }
 
+.conjugationsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 #maintext {
   text-align: center;
   font-family: 'Rubik', serif;
   font-size: 55px;
   color: rgb(200, 255, 0);
   font-weight: bolder;
+}
+
+#closeButton {
+  margin-top: 20px;
 }
 
 #verb-Translation {
