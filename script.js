@@ -95,6 +95,10 @@ let form = document.getElementById('formSubmission');
 
 let table = document.getElementById('tableData');
 
+const conjugateButton = document.getElementById('conjugateButton');
+const closeButton = document.getElementById('closeButton');
+const modalWindow = document.getElementById('modalWindow');
+
 function showConjugations() {
   form.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -104,3 +108,17 @@ function showConjugations() {
   });
 }
 showConjugations();
+
+function hideConjugations() {
+  closeButton.addEventListener('click', function () {
+    modalWindow.style.opacity = 0;
+    modalWindow.style.visibility = 'hidden';
+  });
+}
+hideConjugations();
+
+// submit function
+function submit() {
+  let verb = document.getElementById('verbInput').value;
+  console.log(verb);
+}
