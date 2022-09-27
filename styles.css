@@ -1,13 +1,12 @@
 #aColor {
-  color: rgb(6, 160, 6);
   font-size: 20px;
   margin: 50px auto 0 auto;
   margin-right: 5px;
   padding: 5px;
-  color: rgb(32, 223, 32);
+  color: rgb(5, 145, 5);
   border: 15px solid rgb(11, 186, 189);
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 100%;
   max-width: 300px;
 }
@@ -17,7 +16,7 @@ body {
   padding: 0;
   box-sizing: inherit;
   text-align: center;
-  background-color: #007577;
+  background-color: #17a6a9;
   font-family: Arial;
   color: rgb(211, 211, 211);
   /*background-image: url("https://source.unsplash.com/1600x900/?flags");*/
@@ -26,6 +25,10 @@ body {
 #modalWindow {
   opacity: 0;
   visibility: hidden;
+}
+
+#tableData {
+  color: black;
 }
 
 .conjugationsContainer {

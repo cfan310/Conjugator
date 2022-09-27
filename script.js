@@ -43,54 +43,9 @@ function Conjugations(
 ) {
   this.translation = translation; // pass google api translation funciton
   this.present = present;
-  this.preterite = preterite; // these conjugations will be stored as subobjects or arrays
-  this.imperfect = imperfect;
-  this.conditional = conditional;
-  this.future = future;
-}
-
-// translation specific verb object made with "new" object constructor
-// later we will add these to the modal window, organized in an html table
-var hablar = new Conjugations(
-  ['hablar = to talk; to speak'],
-  // present tense
-  ['habla, halbas, habla, hablamos, habláis, hablan']
-);
-
-var poner = new Conjugations();
-
-console.log(hablar.present);
-
-// MODAL WINDOW POPUP TEST FUNCTIONALITY
-
-// get the modal itself
-var modal = document.getElementsByClassName('modal');
-// get button that opens the modal
-var modalBtn = document.getElementById('modalBtn');
-// get the modal content
-var modalContent = document.getElementsByClassName('mainModal');
-// span element that closes the modal window
-var span = document.getElementsByClassName('close')[0];
-// when the user clicks the modal button, open the modal
-modalBtn.addEventListener('click', function () {
-  //console.log("hello");
-  modal.style.display = 'block';
-});
-// when user clicks <span> close the modal
-span.onclick = function () {
-  modal.style.display = 'none';
-};
-// close modal if user clicks anywhere outside of it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = none;
-  }
-};
-
-
-let form = document.getElementById('formSubmission');
-let table = document.getElementById('tableData');
 */
+//let { hablar, comer } = require('./conjugationobjs.js');
+
 let form = document.getElementById('formSubmission');
 
 let table = document.getElementById('tableData');
@@ -113,6 +68,12 @@ function hideConjugations() {
   closeButton.addEventListener('click', function () {
     modalWindow.style.opacity = 0;
     modalWindow.style.visibility = 'hidden';
+  });
+  closeButton.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      modalWindow.style.opacity = 0;
+      modalWindow.style.visibility = 'hidden';
+    }
   });
 }
 hideConjugations();
