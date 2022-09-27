@@ -11,13 +11,12 @@ const { json } = require("stream/consumers");
 //alert("SELECT LANGUAGE");
 var conjugationsFromAPI;
 let hiddenButton = document.getElementById("hidden-Button");
-*/
+
 let conjugateButton = document.getElementById('conjugate-Button');
 let conjugationsReveal = document.getElementById('conjugations');
 let verbTranslation = document.getElementById('verb-Translation');
 let hideConjugation = document.getElementById('hide-Conjugations');
 
-//let conjugatedPopUp = document.getElementByClass("popUp");
 
 var popUp = document.getElementsByClassName('popup');
 
@@ -87,3 +86,21 @@ window.onclick = function (event) {
     modal.style.display = none;
   }
 };
+
+
+let form = document.getElementById('formSubmission');
+let table = document.getElementById('tableData');
+*/
+let form = document.getElementById('formSubmission');
+
+let table = document.getElementById('tableData');
+
+function showConjugations() {
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    submit();
+    modalWindow.style.opacity = 80;
+    modalWindow.style.visibility = 'visible';
+  });
+}
+showConjugations();
